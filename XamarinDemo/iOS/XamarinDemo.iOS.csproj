@@ -77,6 +77,18 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="Ably.XamarinIOS">
+      <HintPath>..\AblyBinaries\ios\Ably.XamarinIOS.dll</HintPath>
+    </Reference>
+    <Reference Include="MsgPack">
+      <HintPath>..\AblyBinaries\ios\MsgPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\AblyBinaries\ios\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="WebSocket4Net">
+      <HintPath>..\AblyBinaries\ios\WebSocket4Net.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Resources\Images.xcassets\AppIcons.appiconset\Contents.json" />
